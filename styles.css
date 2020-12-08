@@ -86,7 +86,7 @@ body {
 } 
 
 .box-1, .box-2, .box-3, .box-4 {
-    background: #FFF;
+    background: #FFFFFF;
     border-radius: 2%;
     box-shadow: 0px 3px 50px  hsl(0, 0%, 98%),
                 0px 7px 20px hsl(229, 6%, 66%);
