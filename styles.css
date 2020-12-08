@@ -86,7 +86,7 @@ body {
 } 
 
 .box-1, .box-2, .box-3, .box-4 {
-    background: #FFFFFF;
+    background: #FFF;
     border-radius: 2%;
     box-shadow: 0px 3px 50px  hsl(0, 0%, 98%),
                 0px 7px 20px hsl(229, 6%, 66%);
@@ -129,9 +129,7 @@ body {
 }
 
 .box-icon {
-    margin-left: 70%;
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin: 10% 0 70% 10%;
 }
 
 .attribution { 
