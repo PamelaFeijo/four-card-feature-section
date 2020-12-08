@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    line-height: 1;
+    background: hsl(0, 0%, 98%);
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main {
+    text-align: center;
+    margin: 20px;
+    margin-top: 100px;
+    line-height: 1.5rem;
+}
+
+.title-first {
+    font-size: 1.5rem;
+    font-weight: 200;
+    line-height: 3rem;
+    color: hsl(229, 6%, 66%);
+}
+
+.title-second {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 40px;
+    color: hsl(234, 12%, 34%); 
+}
+
+.main-text {
+   color: hsl(229, 6%, 66%);
+   font-weight: 400; 
+   margin: 0 15px 80px 15px;
+}
+
+.boxes {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+} 
+
+.box-1, .box-2, .box-3, .box-4 {
+    background: #FFF;
+    border-radius: 2%;
+    box-shadow: 0px 3px 50px  hsl(0, 0%, 98%),
+                0px 7px 20px hsl(229, 6%, 66%);
+    height: 250px;
+    width: 340px; 
+    text-align: left;
+    margin-bottom: 20px;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 5%;
+}
+
+.box-1 {
+    border-top: 4px solid hsl(180, 62%, 55%);
+}
+
+.box-2 {
+    border-top: 4px solid hsl(0, 78%, 62%);
+}
+
+.box-3 {
+    border-top: 4px solid hsl(34, 97%, 64%);
+}
+
+.box-4 {
+    border-top: 4px solid hsl(212, 86%, 64%);
+}
+
+.box-title {
+    color: hsl(234, 12%, 34%);
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 10px;   
+    margin-top: 10px; 
+}
+
+.box-text {
+    line-height: 1.5rem;
+    color: hsl(229, 6%, 66%);
+}
+
+.box-icon {
+    margin-left: 70%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media only screen and (min-width: 375px ) {
+    .box-1, .box-2, .box-3, .box-4 {
+        width: 340px;
+        height: 250px;
+    }    
+}
+
+@media only screen and (min-width: 685px ) {
+    .box-1, .box-2, .box-3, .box-4 {
+        padding-top: 3%;
+        padding-left: 4%;
+        padding-right: 4%;
+        width: 370px;
+        height: 250px;
+    }
+    .box-icon {
+        margin-left: 80%;
+        margin-bottom: 2%;
+    }
+    .title-first {
+        font-size: 2.0rem;
+        line-height: 4rem;
+    }
+    .title-second {
+        font-size: 2.0rem;
+    }
+    .main-text {
+        font-size: 1rem;
+        margin: 0 20% 60px 20%;
+    }     
+}
+
+@media only screen and (min-width: 1440px) {
+    .boxes {
+        display: flex;
+        flex-direction: row;   
+        position: relative;     
+    }
+    .box-1, .box-2, .box-3, .box-4 {
+        position: absolute;
+        padding-top: 2%;
+        padding-left: 2%;
+        padding-right: 2%;        
+    }    
+    .box-1 {
+        margin-top: 40%;
+        margin-right: 56%;
+    }
+    .box-2 {
+        margin-top: 20%;        
+    }
+    .box-3 {
+        margin-top: 59%;
+        
+    }
+    .box-4 {
+        margin-top: 40%;
+        margin-left: 56%;
+    }    
+    .main-text {
+       margin: 0 30% 60px 30%;
+    }     
+}
+
+
+
+
